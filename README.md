@@ -51,5 +51,4 @@ Groq LLM
 Structured JSON  
 ⬇  
 SQL Database Commit  
-venv\Scripts\activate
 uvicorn main:app --reload
