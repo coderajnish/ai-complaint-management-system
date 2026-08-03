@@ -1,58 +1,55 @@
 # 🧠 AI-Powered Customer Complaint Management System
 
-An AI-driven Complaint Intake & Risk Assessment system designed for pharmaceutical Quality Management Systems (QMS).
+An AI-driven Customer Complaint Intake & Risk Assessment system designed for pharmaceutical Quality Management Systems (QMS).
 
-Built for AIVOA.AI – Round 1 AI Product Engineer Assignment.
+Built as part of the **AIVOA.AI – Round 1 AI Product Engineer Assignment**.
 
 ---
 
 ## 🚀 Tech Stack
 
-**Frontend**
+### Frontend
 - React
-- Redux
+- Redux (State Management)
 - Google Inter Font
 
-**Backend**
+### Backend
 - FastAPI
-- SQLAlchemy
-- SQLite (Postgres compatible)
+- SQLAlchemy ORM
+- SQLite (Postgres-compatible schema)
 
-**AI Layer**
-- LangGraph (Agent Workflow)
+### AI Layer
+- LangGraph (Agent Workflow Orchestration)
 - Groq LLM (LLaMA-based model)
 
 ---
 
-## ✅ Features
+## ✅ Key Features
 
 - 📄 PDF & Text Complaint Intake
 - 🧠 AI Structured Data Extraction
-- ⚠ Risk Classification Engine
-- ✏ Modify Complaint via Natural Language
-- 🔁 Duplicate Complaint Detection
-- 💾 Database Persistence
-- 📊 Complaint Completeness Scoring
+- ⚠ AI Risk Classification
+- ✏ Modify Complaint via Natural Language Instructions
+- 🔁 Duplicate Complaint Detection (Batch-level validation)
+- 💾 SQL-Based Complaint Persistence
 - 🎨 Enterprise-Style UI
 
 ---
 
-## 🧠 AI Workflow (LangGraph)
+## 🏗 System Architecture
 
-User Input  
+User Input (PDF / Text)  
 ⬇  
-Extraction Node  
+React Frontend (Redux State)  
 ⬇  
-Risk Classification Node  
+FastAPI Backend  
 ⬇  
-Structured JSON Output  
+LangGraph Workflow  
 ⬇  
-Database Commit  
-
----
-
-## 👨‍💻 Author
-
-**Rajnish**  
-AI Product Engineer Candidate – AIVOA.AI Round 1  
-GitHub: https://github.com/coderajnish
+Groq LLM  
+⬇  
+Structured JSON  
+⬇  
+SQL Database Commit  
+venv\Scripts\activate
+uvicorn main:app --reload
