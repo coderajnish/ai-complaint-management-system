@@ -51,19 +51,8 @@ Database Commit
 
 ---
 
-## ⚙️ How To Run
-
-### Backend
-
-```bash
-cd backend
-venv\Scripts\activate
-uvicorn main:app --reload
-
----
-
 ## 👨‍💻 Author
 
-**Rajnish Kumar**  
+**Rajnish**  
 AI Product Engineer Candidate – AIVOA.AI Round 1  
 GitHub: https://github.com/coderajnish
