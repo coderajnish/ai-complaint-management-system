@@ -59,3 +59,11 @@ Database Commit
 cd backend
 venv\Scripts\activate
 uvicorn main:app --reload
+
+---
+
+## 👨‍💻 Author
+
+**Rajnish Kumar**  
+AI Product Engineer Candidate – AIVOA.AI Round 1  
+GitHub: https://github.com/coderajnish
