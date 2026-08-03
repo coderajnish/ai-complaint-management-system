@@ -51,4 +51,3 @@ Groq LLM
 Structured JSON  
 ⬇  
 SQL Database Commit  
-uvicorn main:app --reload
