@@ -2,7 +2,7 @@
 
 An AI-driven Customer Complaint Intake & Risk Assessment system designed for pharmaceutical Quality Management Systems (QMS).
 
-Built as part of the **AIVOA.AI – Round 1 AI Product Engineer Assignment**.
+
 
 ---
 
